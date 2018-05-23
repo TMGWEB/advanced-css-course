@@ -9,6 +9,7 @@
   "author": "Tyler",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.0",
+    "npm": "^6.0.1"
   }
 }
