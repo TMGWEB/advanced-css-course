@@ -55,6 +55,10 @@
   &__left {
     width: 33.3333333%;
     display: table-cell;
+
+    @include respond(laptop) {
+      width: 0;
+    }
   }
 
   &__right {
@@ -62,6 +66,10 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 4rem;
+
+    @include respond(laptop) {
+      width: 100%;
+    }
   }
 
   &__img {
@@ -85,5 +93,15 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+
+    @include respond(phone) {
+      -moz-column-count: 1;
+      -moz-column-gap: 4rem;
+      -moz-column-rule: 1px solid $color-gray-light-2;
+
+      column-count: 1;
+      column-gap: 4rem;
+      column-rule: 1px solid $color-gray-light-2;
+    }
   }
 }
