@@ -12,7 +12,7 @@
   "author": "Tyler",
   "license": "ISC",
   "dependencies": {
-    "npm": "^6.4.1"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
